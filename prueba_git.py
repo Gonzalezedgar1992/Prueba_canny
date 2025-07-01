@@ -1,7 +1,8 @@
 import matplotlib
-matplotlib.use('Qt5Agg')  # Necesita PyQt o PySide
+matplotlib.use('TkAgg')  # Necesita PyQt o PySide
 matplotlib.rcParams['text.usetex'] = True
 import matplotlib.pyplot as plt
+plt.ioff() 
 import numpy as np
 
 
