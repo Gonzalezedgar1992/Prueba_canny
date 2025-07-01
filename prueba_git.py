@@ -47,12 +47,12 @@ ax.set_title('', fontsize=15)
 
 # Activar LaTeX en todo el plot (requiere tener LaTeX instalado)
 plt.rcParams['text.usetex'] = True
-plt.rcParams['font.family'] = 'serif'
+plt.rcParams['font.family'] = 'CMU Serif'
 
 # Guardar como PDF con buena calidad
 plt.tight_layout()
-plt.savefig('FiguraD5_python.pdf', format='pdf', dpi=300)
-
+plt.savefig('FiguraD5_python.pdf', format='pdf', dpi=600)
+plt.savefig("grafico.svg", format='svg')  # format opcional
 print("Figura guardada como 'FiguraD5_python.pdf'")
 plt.show()
 #plt.pause(5)  # muestra la figura 2 segundos
